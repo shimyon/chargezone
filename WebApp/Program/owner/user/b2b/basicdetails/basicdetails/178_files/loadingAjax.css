@@ -1,0 +1,87 @@
+    
+    
+/*.loading,
+.loading::before,
+.loading::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border: 1px solid rgba(205, 255, 120, 0.1);
+  border-left-color: rgba(110, 250, 255, 0.6);
+  -webkit-border-radius: 999px;
+  -moz-border-radius: 999px;
+  border-radius: 999px;
+}*/
+
+.loading, .loading::before, .loading::after {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: rgba(205, 250, 120, 0.55) rgba(205, 255, 120, 0.1) rgba(205, 255, 120, 0.09) rgba(110, 250, 255, 1.00);
+    border-image: none;
+    border-radius: 999px;
+    border-style: solid;
+    border-width: 1px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+}
+
+.loading {
+  margin: -25px 0 0 -25px;
+  height: 50px;
+  width: 50px;
+  -webkit-animation: animation-rotate 1000ms linear infinite;
+  -moz-animation: animation-rotate 1000ms linear infinite;
+  -o-animation: animation-rotate 1000ms linear infinite;
+  animation: animation-rotate 1000ms linear infinite;
+}
+
+.loading::before {
+  content: "";
+  margin: -23px 0 0 -23px;
+  height: 44px;
+  width: 44px;
+  -webkit-animation: animation-rotate 1000ms linear infinite;
+  -moz-animation: animation-rotate 1000ms linear infinite;
+  -o-animation: animation-rotate 1000ms linear infinite;
+  animation: animation-rotate 1000ms linear infinite;
+}
+
+.loading::after {
+  content: "";
+  margin: -29px 0 0 -29px;
+  height: 56px;
+  width: 56px;
+  -webkit-animation: animation-rotate 2000ms linear infinite;
+  -moz-animation: animation-rotate 2000ms linear infinite;
+  -o-animation: animation-rotate 2000ms linear infinite;
+  animation: animation-rotate 2000ms linear infinite;
+}
+
+@-webkit-keyframes animation-rotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes animation-rotate {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-o-keyframes animation-rotate {
+  100% {
+    -o-transform: rotate(360deg);
+  }
+}
+
+@keyframes animation-rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+    
+ 

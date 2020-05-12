@@ -1,0 +1,32 @@
+      "1": 1661,              //May be Id
+      "2": "OW3BA16610",      //Refenrace no
+      "3": "Chennai",         // Pickup City
+      "4": "01-Apr-2020",     // Travel Date
+      "5": "00:00",           // Travel Time
+      "6": "Outstation",      // Travel Type
+      "7": "Customer",        // User Type
+      "8": 1,                 //
+      "9": "01-Apr-2020",     //
+      "10": "Imaya varam",    // User Name (Not sure)
+      "11": "Offline",        // Type
+      "0": "1"                //
+
+
+if ('0' == aData[8]) {
+      $nRow.addClass('PendingViewBookingsColor');
+}
+else if ('2' == aData[8]) {
+      $nRow.addClass('CancelledViewBookingsColor');
+}
+else if ('4' == aData[8]) {
+      $nRow.addClass('CompleteViewBookingsColor');
+}
+else if ('1' == aData[8] && tDay <= today && today < tEndDay) {
+      $nRow.addClass('CurrentViewBookingsColor');
+}
+else if ('1' == aData[8] && today < tDay) {
+      $nRow.addClass('FutureViewBookingsColor');
+}
+else if ('1' == aData[8] && tEndDay <= today || '3' == aData[8]) {
+      $nRow.addClass('DoSettlementViewBookingsColor');
+}

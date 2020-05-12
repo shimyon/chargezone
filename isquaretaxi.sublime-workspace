@@ -1,0 +1,1326 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"footerlistp",
+				"footerlistphp"
+			],
+			[
+				"foot",
+				"footer_link_files"
+			],
+			[
+				"headli",
+				"headlistphp"
+			],
+			[
+				"mas",
+				"master"
+			],
+			[
+				"maste",
+				"masterfile"
+			],
+			[
+				"replace",
+				"str_replace"
+			],
+			[
+				"bor",
+				"border-top-color\tproperty"
+			],
+			[
+				"str_rep",
+				"str_replace"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
+				"bo",
+				"border-bottom-color\tproperty"
+			],
+			[
+				"s",
+				"style\tAttr"
+			],
+			[
+				"c",
+				"class\tAttr"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"els",
+				"else"
+			],
+			[
+				"padd",
+				"padding-top\tproperty"
+			],
+			[
+				"font",
+				"font-weight\tproperty"
+			],
+			[
+				"ce",
+				"cellspacing\tAttr"
+			],
+			[
+				"User",
+				"Username"
+			],
+			[
+				"json",
+				"json_decode"
+			],
+			[
+				"emi",
+				"emission_type"
+			],
+			[
+				"time",
+				"timesheet"
+			],
+			[
+				"border-le",
+				"border-left-color\tproperty"
+			],
+			[
+				"co",
+				"color\tproperty"
+			],
+			[
+				"pre",
+				"pre-wrap\twhite-space"
+			],
+			[
+				"data",
+				"dataurl"
+			],
+			[
+				"spli",
+				"splittm"
+			],
+			[
+				"app",
+				"appt"
+			],
+			[
+				"par",
+				"parseInt"
+			],
+			[
+				"open",
+				"OpenFrom"
+			],
+			[
+				"re",
+				"retunval"
+			],
+			[
+				"entity",
+				"EntityId"
+			],
+			[
+				"compa",
+				"IsDisabledCompany"
+			],
+			[
+				"pad",
+				"padding\tproperty"
+			],
+			[
+				"margin",
+				"margin-bottom\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"Action",
+				"ActionId"
+			],
+			[
+				"Actin",
+				"ActionId"
+			],
+			[
+				"startdate",
+				"startdatetime"
+			],
+			[
+				"sele",
+				"selected"
+			],
+			[
+				"setsi",
+				"SetSignature"
+			],
+			[
+				"fo",
+				"for\tfor (…) {…}"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"mar",
+				"margin-top\tproperty"
+			],
+			[
+				"selected",
+				"SetSelectAddress"
+			],
+			[
+				"today",
+				"jobTotalDays"
+			],
+			[
+				"callo",
+				"CallLog"
+			],
+			[
+				"Entit",
+				"EntityIDSelected"
+			],
+			[
+				"over",
+				"overflow-y\tproperty"
+			],
+			[
+				"fu",
+				"fun\tFunction"
+			],
+			[
+				"otp",
+				"option\tTag"
+			],
+			[
+				"dis",
+				"DistanceInMeter"
+			],
+			[
+				"l",
+				"lat"
+			],
+			[
+				"sett",
+				"setTimeout"
+			],
+			[
+				"su",
+				"super\tvertical-align"
+			],
+			[
+				"TOt",
+				"CLM_TOTAL"
+			],
+			[
+				"Sig",
+				"SignOFF"
+			],
+			[
+				"ManifestSavedSIgn_",
+				"ManifestSavedSIgn_CONSIGNORS1"
+			],
+			[
+				"Sav",
+				"SaveManifestSign"
+			],
+			[
+				"sig",
+				"signatureCONSIGNORS1"
+			],
+			[
+				"clic",
+				"IamClientChecked"
+			],
+			[
+				"col-2",
+				"col-20"
+			],
+			[
+				"pro",
+				"prop"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"text",
+				"text-right"
+			],
+			[
+				"text-a",
+				"text-align\tproperty"
+			],
+			[
+				"paddin",
+				"padding-right\tproperty"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"pa",
+				"password"
+			],
+			[
+				"shot",
+				"short"
+			],
+			[
+				"MITI",
+				"MITimeline"
+			],
+			[
+				"getle",
+				"getElementById"
+			],
+			[
+				"Dealser",
+				"DEALSearchValue"
+			],
+			[
+				"chk",
+				"chckobj"
+			],
+			[
+				"App",
+				"AppointmentID"
+			],
+			[
+				"backgrou",
+				"background-color\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "WebApp/Program/index.php",
+			"settings":
+			{
+				"buffer_size": 579,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "WebApp/Program/send.php",
+			"settings":
+			{
+				"buffer_size": 391,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "OldSiteData/RawData/senddata",
+			"settings":
+			{
+				"buffer_size": 465,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "OldSiteData/RawData/Booking/enquiry/csereq/1_35.json",
+			"settings":
+			{
+				"buffer_size": 10757,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pret",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"json",
+				"Pretty JSON: Format JSON Lines"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"manage",
+				"Package Control: List Unmanaged Packages"
+			],
+			[
+				"package mana",
+				"Package Control: List Unmanaged Packages"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Install Package Control"
+			],
+			[
+				"pakc",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 136.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Shimyon/Emoiss/isquaretaxi",
+		"/D/Shimyon/Emoiss/isquaretaxi/OldSiteData",
+		"/D/Shimyon/Emoiss/isquaretaxi/OldSiteData/RawData",
+		"/D/Shimyon/Emoiss/isquaretaxi/OldSiteData/RawData/Booking",
+		"/D/Shimyon/Emoiss/isquaretaxi/WebApp",
+		"/D/Shimyon/Emoiss/isquaretaxi/WebApp/Program",
+		"/D/Shimyon/Emoiss/isquaretaxi/WebApp/Program/booking",
+		"/D/Shimyon/Emoiss/isquaretaxi/WebApp/Program/booking/overview"
+	],
+	"file_history":
+	[
+		"/D/Shimyon/Emoiss/isquaretaxi/OldSiteData/RawData/Booking/closeduty/complete/1001_1016.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/OldSiteData/RawData/Booking/enquiry/enquirylist/1_79.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/OldSiteData/RawData/Booking/closeduty/complete/901_1000.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/OldSiteData/RawData/Booking/closeduty/complete/801_900.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/OldSiteData/RawData/Booking/closeduty/complete/701_800.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/OldSiteData/RawData/Booking/closeduty/complete/601_700.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/OldSiteData/RawData/Booking/closeduty/complete/501_600.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/OldSiteData/RawData/Booking/closeduty/complete/401_500.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/OldSiteData/RawData/Booking/closeduty/complete/301_400.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/OldSiteData/RawData/Booking/closeduty/complete/201_300.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/OldSiteData/RawData/Booking/closeduty/complete/101_200.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/OldSiteData/RawData/Booking/closeduty/complete/1_100.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/OldSiteData/RawData/Booking/closeduty/pending/1_1.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/OldSiteData/RawData/Booking/cancelbookings/cancellationreason/201_300.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/OldSiteData/RawData/Booking/cancelbookings/cancellationreason/101_200.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/OldSiteData/RawData/Booking/cancelbookings/cancellationreason/1_100.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/OldSiteData/RawData/Booking/cancelbookings/complete/201_300.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/OldSiteData/RawData/Booking/cancelbookings/complete/101_200.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/OldSiteData/RawData/Booking/cancelbookings/complete/1_100.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/OldSiteData/RawData/Booking/cancelbookings/pending/1_2.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/OldSiteData/RawData/Booking/cancelbookings/201_300.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/OldSiteData/RawData/Booking/cancelbookings/1_100.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/OldSiteData/RawData/Booking/cancelbookings/101_200.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/WebApp/booking_bookings.html",
+		"/D/Shimyon/Emoiss/isquaretaxi/WebApp/web.config",
+		"/D/Shimyon/Emoiss/isquaretaxi/WebApp/public_files/js/jquery.min.js",
+		"/D/Shimyon/Emoiss/isquaretaxi/WebApp/index.php",
+		"/D/Shimyon/Emoiss/isquaretaxi/WebApp/app/master.php",
+		"/D/Shimyon/Emoiss/isquaretaxi/WebApp/app/left_sidebar_content.php",
+		"/D/Shimyon/Emoiss/isquaretaxi/WebApp/app/footer_link_files.php",
+		"/D/Shimyon/Emoiss/isquaretaxi/WebApp/app/head_link_files.php",
+		"/D/Shimyon/Emoiss/isquaretaxi/WebApp/Program/send.php",
+		"/D/Shimyon/Emoiss/isquaretaxi/WebApp/app/Default/index.php",
+		"/D/Shimyon/Emoiss/isquaretaxi/Program/send.php",
+		"/D/Shimyon/Emoiss/isquaretaxi/Program/index.php",
+		"/D/Shimyon/Emoiss/isquaretaxi/WebApp/app/top_content_bar.php",
+		"/D/Shimyon/Emoiss/isquaretaxi/OldSiteData/RawData/Users/customer/customer_info.txt",
+		"/D/Shimyon/Emoiss/isquaretaxi/WebApp/globals.php",
+		"/D/Shimyon/Emoiss/isquaretaxi/WebApp/render.php",
+		"/D/Shimyon/Emoiss/isquaretaxi/WebApp/sftp-config.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/OldSiteData/RawData/Users/customer/customer_1001_1100.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/OldSiteData/RawData/Users/customer/customer_901_1000.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/OldSiteData/RawData/Users/customer/customer_801_900.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/OldSiteData/RawData/Users/customer/customer_701_800.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/OldSiteData/RawData/Users/customer/customer_601_700.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/OldSiteData/RawData/Users/customer/customer_501_600.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/OldSiteData/RawData/Users/customer/customer_401_500.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/OldSiteData/RawData/Users/customer/customer_301_400.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/OldSiteData/RawData/Users/customer/customer_201_300.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/OldSiteData/RawData/Users/customer/customer_101_200.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/OldSiteData/RawData/Users/customer/customer_1_100.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/OldSiteData/RawData/Booking/jsondata/booking_json_data.txt",
+		"/D/Shimyon/Emoiss/isquaretaxi/OldSiteData/RawData/Booking/booking_json_data.txt",
+		"/D/Shimyon/Emoiss/isquaretaxi/WebApp/RawData/Booking/booking_json_data.txt",
+		"/D/Shimyon/Emoiss/isquaretaxi/WebApp/RawData/Booking/booking_1401_1500.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/WebApp/RawData/Booking/booking_1501_1600.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/WebApp/RawData/Booking/booking_1601_1700.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/WebApp/RawData/Booking/booking_1301_1400.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/WebApp/RawData/Booking/booking_1201_1300.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/WebApp/RawData/Booking/booking_1101_1200.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/WebApp/RawData/Booking/booking_1001_1100.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/WebApp/RawData/Booking/booking_901_1000.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/WebApp/RawData/Booking/booking_801_900.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/WebApp/RawData/Booking/booking_701_800.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/WebApp/RawData/Booking/booking_601_700.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/WebApp/RawData/Booking/booking_501_600.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/WebApp/RawData/Booking/booking_401_500.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/WebApp/RawData/Booking/booking_301_400.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/WebApp/RawData/Booking/booking_201_300.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/WebApp/RawData/Booking/booking_101_200.json",
+		"/D/Shimyon/Emoiss/isquaretaxi/WebApp/RawData/Booking/booking_1_100.json",
+		"/C/users/shimy/appdata/local/temp/sublime-sftp-browse-1587825752/mapped/wp-content/plugins/sliced-invoices-pdf-email/includes/vendor/sliced-pdf/sliced-pdf.php",
+		"/D/Shimyon/Emoiss/Wordpress/wp-includes/wp-db.php",
+		"/D/Shimyon/Emoiss/Wordpress/wp-content/plugins/sliced-invoices/includes/invoice/class-sliced-invoice.php",
+		"/D/Shimyon/Emoiss/Wordpress/wp-content/plugins/sliced-invoices/includes/template-tags/sliced-tags-invoice.php",
+		"/D/Shimyon/Emoiss/Wordpress/wp-content/plugins/sliced-invoices/includes/class-sliced-shared.php",
+		"/D/Shimyon/Emoiss/Wordpress/wp-links-opml.php",
+		"/D/Shimyon/Emoiss/Wordpress/wp-content/plugins/sliced-invoices/admin/includes/sliced-admin-options.php",
+		"/D/Shimyon/Emoiss/Wordpress/sftp-config.json",
+		"/D/Shimyon/Emoiss/Wordpress/wp-content/themes/twentytwenty/sliced/_sliced-quote-display.php",
+		"/D/Shimyon/Emoiss/Wordpress/wp-content/themes/twentytwenty/sliced/sliced-quote-display.php",
+		"/D/Shimyon/Emoiss/Wordpress/wp-content/themes/twentytwenty/sliced/_sliced-invoice-display.php",
+		"/D/Shimyon/Emoiss/Wordpress/wp-content/themes/twentysixteen/sliced/sliced-quote-display.php",
+		"/D/Shimyon/Emoiss/Wordpress/wp-content/themes/twentysixteen/sliced/sliced-invoice-display.php",
+		"/D/Shimyon/Emoiss/Wordpress/wp-content/plugins/sliced-invoices/public/templates/sliced-quote-display.php",
+		"/D/Shimyon/Emoiss/Wordpress/wp-content/plugins/sliced-invoices/public/templates/sliced-invoice-display.php",
+		"/D/Shimyon/Emoiss/Wordpress/ClientDocument/invoice-html/index.html",
+		"/D/Shimyon/Emoiss/Wordpress/wp-content/plugins/sliced-invoices/includes/csv/csv-importer.php",
+		"/D/Shimyon/Emoiss/Wordpress/wp-content/plugins/sliced-invoices/admin/js/admin.js",
+		"/D/Shimyon/Emoiss/Wordpress/wp-content/plugins/sliced-invoices/includes/template-tags/sliced-tags-display-modules.php",
+		"/D/Shimyon/Emoiss/Wordpress/wp-content/themes/twentytwenty/sliced/sliced-invoice-display.php",
+		"/D/Shimyon/Emoiss/Wordpress/wp-content/plugins/sliced-invoices/admin/includes/sliced-admin-metaboxes.php",
+		"/D/Shimyon/Emoiss/Wordpress/wp-content/plugins/sliced-invoices/includes/template-tags/sliced-tags-quote.php",
+		"/D/Shimyon/Emoiss/Wordpress/wp-content/plugins/sliced-invoices/core/class-sliced.php",
+		"/D/Shimyon/Emoiss/Wordpress/wp-content/plugins/sliced-invoices/public/class-sliced-public.php",
+		"/C/Users/shimy/AppData/Roaming/Sublime Text 3/Packages/User/SFTP.errors.log",
+		"/D/Shimyon/Emoiss/Wordpress/wp-config.php",
+		"/D/Shimyon/Emoiss/Wordpress/wp-content/plugins/sliced-invoices/includes/quote/class-sliced-quote.php",
+		"/D/Shimyon/Emoiss/Wordpress/wp-content/plugins/sliced-invoices/includes/template-tags/sliced-tags-general.php",
+		"/D/Shimyon/Emoiss/Wordpress/wp-content/plugins/sliced-invoices/admin/class-sliced-admin.php",
+		"/D/Shimyon/Emoiss/Wordpress/wp-includes/option.php",
+		"/D/Shimyon/Emoiss/Wordpress/wp-admin/includes/class-wp-screen.php",
+		"/D/Shimyon/Emoiss/Wordpress/wp-content/plugins/sliced-invoices/includes/template-tags/sliced-tags-client.php",
+		"/D/Shimyon/Emoiss/Wordpress/wp-activate.php",
+		"/D/Shimyon/Emoiss/Wordpress/wp-includes/user.php",
+		"/D/Shimyon/Emoiss/Wordpress/wp-includes/pluggable.php",
+		"/D/Shimyon/Emoiss/Wordpress/wp-includes/admin-bar.php",
+		"/D/Shimyon/Emoiss/Wordpress/wp-includes/nav-menu.php",
+		"/D/Shimyon/Emoiss/Wordpress/wp-content/plugins/sliced-invoices/admin/css/admin.css",
+		"/D/Shimyon/Emoiss/Wordpress/wp-content/themes/twentyseventeen/inc/icon-functions.php",
+		"/D/Shimyon/Emoiss/Wordpress/wp-content/plugins/sliced-invoices/includes/template-tags/sliced-tags-business.php",
+		"/D/Shimyon/Emoiss/Wordpress/wp-admin/menu-header.php",
+		"/D/Shimyon/Emoiss/Wordpress/wp-content/plugins/sliced-invoices/admin/js/decimal.js",
+		"/D/Shimyon/Emoiss/Wordpress/wp-content/plugins/elementor/assets/css/admin.css",
+		"/D/Shimyon/Fusion/Timesheet/GIT/App/www/templates/popups/edit-meeting-modal.html",
+		"/D/Shimyon/Emoiss/Wordpress/help.txt",
+		"/D/Shimyon/Emoiss/Wordpress/wp-content/plugins/sliced-invoices/includes/vendor/cmb2/includes/CMB2.php",
+		"/D/Shimyon/Emoiss/Wordpress/wp-content/plugins/sliced-invoices/includes/vendor/cmb2/includes/CMB2_hookup.php",
+		"/D/Shimyon/Emoiss/Wordpress/wp-includes/functions.php",
+		"/D/Shimyon/Emoiss/Wordpress/wp-content/themes/twentynineteen/page.php",
+		"/D/Shimyon/Emoiss/Wordpress/wp-includes/ms-deprecated.php",
+		"/D/Shimyon/Emoiss/Wordpress/wp-admin/includes/upgrade.php",
+		"/D/Shimyon/Emoiss/Wordpress/wp-content/plugins/elementor/assets/js/admin.js",
+		"/D/Shimyon/Fusion/Jobs/JobsApp/www/controllers/JobSearchController.js",
+		"/D/Shimyon/Fusion/Jobs/JobsApp/www/templates/HomePage.html",
+		"/D/Shimyon/Fusion/Jobs/JobsApp/www/templates/Domain.html",
+		"/D/Shimyon/Fusion/Jobs/JobsApp/www/templates/CrmDashboard.html",
+		"/D/Shimyon/Fusion/Jobs/JobsApp/www/templates/modulesConfig.html"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Top Content Bar",
+			"Left Sidebar",
+			"dataTables.bootstrap.css"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "WebApp/Program/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 579,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								313,
+								313
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "WebApp/Program/send.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 391,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								198,
+								198
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "OldSiteData/RawData/senddata",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 465,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "OldSiteData/RawData/Booking/enquiry/csereq/1_35.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10757,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1618,
+								1618
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 108.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 108.0
+	},
+	"pinned_build_system": "",
+	"project": "isquaretaxi.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"index.",
+				"WebApp\\index.php"
+			],
+			[
+				"jquery",
+				"WebApp\\public_files\\js\\jquery.min.js"
+			],
+			[
+				"view-claim-modal.html",
+				"templates\\popups\\view-claim-modal.html"
+			],
+			[
+				"claim",
+				"js\\controllers\\MiClaimsCtrl.js"
+			],
+			[
+				"comm",
+				"library\\common.php"
+			],
+			[
+				"wp-db.php",
+				"wp-includes\\wp-db.php"
+			],
+			[
+				"wp-db",
+				"wp-includes\\wp-db.php"
+			],
+			[
+				"admin.js",
+				"wp-content\\plugins\\sliced-invoices\\admin\\js\\admin.js"
+			],
+			[
+				"sliced-admin-metaboxes.php",
+				"wp-content\\plugins\\sliced-invoices\\admin\\includes\\sliced-admin-metaboxes.php"
+			],
+			[
+				"sliced-admin-options.php",
+				"wp-content\\plugins\\sliced-invoices\\admin\\includes\\sliced-admin-options.php"
+			],
+			[
+				"class-invoice-display.php",
+				"wp-content\\plugins\\sliced-invoices\\public\\templates\\sliced-invoice-display.php"
+			],
+			[
+				"meta",
+				"wp-content\\plugins\\sliced-invoices\\admin\\includes\\sliced-admin-metaboxes.php"
+			],
+			[
+				"admin.css",
+				"wp-content\\plugins\\sliced-invoices\\admin\\css\\admin.css"
+			],
+			[
+				"invoice-display",
+				"wp-content\\themes\\twentytwenty\\sliced\\sliced-invoice-display.php"
+			],
+			[
+				"busmana",
+				"FusionApp\\FusionApp\\Scripts\\Pages\\BusManager.js"
+			],
+			[
+				"invoice-disp",
+				"wp-content\\themes\\twentytwenty\\sliced\\sliced-invoice-display.php"
+			],
+			[
+				"busmancon",
+				"FusionApp\\FusionApp\\Controllers\\BusmanController.cs"
+			],
+			[
+				"admin.j",
+				"wp-content\\plugins\\sliced-invoices\\admin\\js\\admin.js"
+			],
+			[
+				"sliced-invoice",
+				"wp-content\\themes\\twentytwenty\\sliced\\sliced-invoice-display.php"
+			],
+			[
+				"contro",
+				"js\\controllers.js"
+			],
+			[
+				"invoice-dis",
+				"wp-content\\themes\\twentysixteen\\sliced\\sliced-invoice-display.php"
+			],
+			[
+				"meeting",
+				"templates\\popups\\edit-meeting.html"
+			],
+			[
+				"newmeetin",
+				"js\\popupcomm\\newmeeting.js"
+			],
+			[
+				"meetinc",
+				"js\\controllers\\MeetingCtrl.js"
+			],
+			[
+				"he",
+				"help.txt"
+			],
+			[
+				"user-edit",
+				"wp-admin\\user-edit.php"
+			],
+			[
+				"page.",
+				"wp-content\\themes\\twentynineteen\\page.php"
+			],
+			[
+				"user-edi",
+				"wp-admin\\user-edit.php"
+			],
+			[
+				"capture",
+				"templates\\capture-daily-time.html"
+			],
+			[
+				"sig",
+				"js\\controllers\\SignInCtrl.js"
+			],
+			[
+				"app",
+				"js\\app.js"
+			],
+			[
+				"jobs",
+				"controllers\\JobSearchController.js"
+			],
+			[
+				"home.",
+				"templates\\HomePage.html"
+			],
+			[
+				"con",
+				"js\\controllers.js"
+			],
+			[
+				"homepa",
+				"controllers\\HomePageController.js"
+			],
+			[
+				"main.html",
+				"templates\\Domain.html"
+			],
+			[
+				"dashboar",
+				"templates\\CrmDashboard.html"
+			],
+			[
+				"addsto",
+				"controllers\\AddStockController.js"
+			],
+			[
+				"add",
+				"templates\\AddStock.html"
+			],
+			[
+				"asstock",
+				"templates\\AddStock.html"
+			],
+			[
+				"image.html",
+				"templates\\Images.html"
+			],
+			[
+				"ImagesController",
+				"controllers\\ImagesController.js"
+			],
+			[
+				"grouptime",
+				"controllers\\GroupTimesheetCaptureCtrl.js"
+			],
+			[
+				"control",
+				"js\\controllers.js"
+			],
+			[
+				"controller.js",
+				"controllers\\MapController.js"
+			],
+			[
+				"modul",
+				"controllers\\modulesConfigCtrl.js"
+			],
+			[
+				"modulec",
+				"templates\\modulesConfig.html"
+			],
+			[
+				"jobse",
+				"controllers\\JobSearchController.js"
+			],
+			[
+				"login",
+				"services\\LoginServices.js"
+			],
+			[
+				"sign",
+				"js\\controllers\\SignInCtrl.js"
+			],
+			[
+				"class-sliced-pub",
+				"wp-content\\plugins\\sliced-invoices\\public\\class-sliced-public.php"
+			],
+			[
+				"sliced-invoice-display.php",
+				"wp-content\\themes\\twentysixteen\\sliced\\sliced-invoice-display.php"
+			],
+			[
+				"help",
+				"help.txt"
+			],
+			[
+				"newlcai",
+				"js\\controllers\\NewClaimCtrl.js"
+			],
+			[
+				"new-t",
+				"templates\\new-ticket.html"
+			],
+			[
+				"newtick",
+				"js\\controllers\\NewTicketCtrl.js"
+			],
+			[
+				"mi-cloc",
+				"templates\\mi-clockIn.html"
+			],
+			[
+				"miclockintrack",
+				"js\\services\\MIClockInTrackerService.js"
+			],
+			[
+				"clockint",
+				"js\\controllers\\MIClockInTrackerCtrl.js"
+			],
+			[
+				"new-deal",
+				"templates\\new-deal.html"
+			],
+			[
+				"deal",
+				"js\\controllers\\NewDealCtrl.js"
+			],
+			[
+				"mideal",
+				"js\\controllers\\MiDealsCtrl.js"
+			],
+			[
+				"mi-deal",
+				"templates\\mi-deals.html"
+			],
+			[
+				"mi-details-nextkin2",
+				"templates\\mi-details-nextkin2.html"
+			],
+			[
+				"midetail",
+				"js\\controllers\\MiDetailsCtrl.js"
+			],
+			[
+				"mi-detail",
+				"templates\\mi-details.html"
+			],
+			[
+				"miclaim",
+				"templates\\popups\\view-claim-modal.html"
+			],
+			[
+				"mi-claim",
+				"templates\\mi-claims.html"
+			],
+			[
+				"add-team-with-filter.html",
+				"templates\\popups\\add-team-with-filter.html"
+			],
+			[
+				"addteam.html",
+				"templates\\popups\\addteam.html"
+			],
+			[
+				"add-group-timesheet-job.html",
+				"templates\\popups\\add-group-timesheet-job.html"
+			],
+			[
+				"grou",
+				"js\\controllers\\GroupTimesheetCaptureCtrl.js"
+			],
+			[
+				"group",
+				"templates\\group-timesheet-capture.html"
+			],
+			[
+				"clock",
+				"templates\\mi-clockIn.html"
+			],
+			[
+				"menu",
+				"templates\\app\\menu.html"
+			],
+			[
+				"miclc",
+				"js\\controllers\\MIClockInCtrl.js"
+			],
+			[
+				"ap",
+				"js\\app.js"
+			],
+			[
+				"sing",
+				"templates\\sign-in.html"
+			],
+			[
+				"lead",
+				"templates\\new-lead.html"
+			],
+			[
+				"mi-lead",
+				"templates\\mi-leads.html"
+			],
+			[
+				"mi-clock",
+				"templates\\mi-clockIn.html"
+			],
+			[
+				"them",
+				"css\\theme.css"
+			],
+			[
+				"sty",
+				"css\\style.css"
+			],
+			[
+				"mi-timline",
+				"templates\\mi-timelineactivity.html"
+			],
+			[
+				"mitimelin",
+				"js\\controllers\\MITimelineCtrl.js"
+			],
+			[
+				"mi-timelin",
+				"templates\\mi-timeline.html"
+			],
+			[
+				"new deal",
+				"templates\\new-deal.html"
+			],
+			[
+				"styl",
+				"css\\style.css"
+			],
+			[
+				"new-lea",
+				"templates\\new-lead.html"
+			],
+			[
+				"newlead",
+				"js\\controllers\\NewLead.js"
+			],
+			[
+				"mi-actioned",
+				"templates\\mi-actions-edit.html"
+			],
+			[
+				"miactionedit",
+				"js\\controllers\\MIActionEditController.js"
+			],
+			[
+				"miactioncon",
+				"js\\controllers\\MIActionsController.js"
+			],
+			[
+				"mi-tim",
+				"templates\\mi-timelineactivity.html"
+			],
+			[
+				"timeline",
+				"js\\controllers\\MITimelineActivityCtrl.js"
+			],
+			[
+				"miclock",
+				"js\\controllers\\MIClockInCtrl.js"
+			],
+			[
+				"mi-leave",
+				"templates\\mi-leaves.html"
+			],
+			[
+				"mileave",
+				"js\\controllers\\MiLeavesCtrl.js"
+			],
+			[
+				"mitiline",
+				"js\\controllers\\MITimelineCtrl.js"
+			],
+			[
+				"miquote",
+				"js\\controllers\\MIQuoteCtrl.js"
+			],
+			[
+				"miquo",
+				"templates\\mi-quote.html"
+			],
+			[
+				"mi-dea",
+				"templates\\mi-deals.html"
+			],
+			[
+				"mitimelinacti",
+				"js\\controllers\\MITimelineActivityCtrl.js"
+			],
+			[
+				"settinc",
+				"js\\controllers\\SettingCtrl.js"
+			],
+			[
+				"app.js",
+				"js\\app.js"
+			],
+			[
+				"settin",
+				"templates\\settings.html"
+			],
+			[
+				"templates/popups/emailpopup.html",
+				"templates\\popups\\emailpopup.html"
+			],
+			[
+				"quote",
+				"templates\\popups\\view-quote-modal.html"
+			],
+			[
+				"dash",
+				"js\\controllers\\DashCtrl.js"
+			],
+			[
+				"ta",
+				"templates\\tab-dash.html"
+			],
+			[
+				"michatre",
+				"js\\controllers\\MiChatReplyCtrl.js"
+			],
+			[
+				"mi-cha",
+				"templates\\mi-chat-reply.html"
+			],
+			[
+				"miclockin",
+				"js\\controllers\\MIClockInCtrl.js"
+			],
+			[
+				"main.",
+				"main.html"
+			],
+			[
+				"menu.h",
+				"templates\\app\\menu.html"
+			],
+			[
+				"apps.j",
+				"js\\directives\\app.directives.js"
+			],
+			[
+				"tab-da",
+				"templates\\tab-dash.html"
+			],
+			[
+				"view-lead-modal.html",
+				"templates\\popups\\view-lead-modal.html"
+			],
+			[
+				"milead",
+				"js\\controllers\\MiLeadsCtrl.js"
+			],
+			[
+				"new-claim",
+				"templates\\new-claim.html"
+			],
+			[
+				"newca",
+				"js\\controllers\\NewClaimCtrl.js"
+			],
+			[
+				"ChatDetailCtrl",
+				"js\\controllers\\ChatDetailCtrl.js"
+			],
+			[
+				"AccountCtrl",
+				"js\\controllers\\AccountCtrl.js"
+			],
+			[
+				"daily-capture-modal.html",
+				"templates\\popups\\daily-capture-modal.html"
+			],
+			[
+				"ChatsCtrl",
+				"js\\controllers\\ChatsCtrl.js"
+			],
+			[
+				"CaptureDailyTimeCtrl",
+				"js\\controllers\\CaptureDailyTimeCtrl.js"
+			],
+			[
+				"capture-de",
+				"templates\\capture-daily-time.html"
+			],
+			[
+				"dailytim",
+				"js\\controllers\\CaptureDailyTimeCtrl.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 295.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,903 @@
+  <!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+        <title>Basic Details - CabSaaS Inventory and Fleet Management </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- Le styles -->
+        <link href="/css/bootstrap.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/images/company/favicon/I_SQUARE_TAXI_20180928193600870117_favicon.png" rel="shortcut icon" type="image/vnd.microsoft.icon">        <!-- Scripts -->
+        <script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/loadingAjax.js"></script>
+ <link rel="stylesheet" type="text/css" href="/css/innerPageStyle.css">
+  <link rel="stylesheet" type="text/css" href="/css/cabsaas-innerPage.css">
+  <link rel="stylesheet" type="text/css" href="/css/loadingAjax.css">
+  <link rel="stylesheet" type="text/css" href="/css/inner-responsive.css">
+  
+
+    </head>
+<body style="min-height:800px;">
+    <!-- Left Sidebar Start -->
+<div class="sidebar sidebar-left" style="min-height: 100%;">
+       		<!-- Logo Start -->
+<div class="logo-container img-responsive"><a  class="img-responsive" href="/website"><img  src="/images/company/clogo/300x60/I_SQUARE_TAXI_20180928190218888619_logo.png" alt="I SQUARE TAXI"></a></div>
+	
+<!-- Menu Start --> 
+<ul class="main-menu">
+    
+        <li style="background-color: #0e9fce;"><a href="/owner/dashboard/dashboard"><i class="OverviewIcon"></i><span style="color:#FFF;">&nbsp;Dashboard</span></a></li>
+     
+     <li><a href="/customer/overview/overview/873"><i class="UserOverviewIcon"></i><span>&nbsp;Overview</span></a></li>
+    
+    <li><a href="/customer/booking/bookings/873" class="close-child"><i class="UserBookingIcon"></i><span>&nbsp;Booking</span></a></li>
+
+<!--<li><a href=""><i class="UserPaymentIcon"></i><span>&nbsp;Wallet</span></a></li>-->
+<!--Finance & Account-->
+                <li class="has-submenu"><a href="javascript:void(0);"><i class="FinanceIcon"></i><span>&nbsp;Finance & Account</span></a>
+                    <ul class="submenu">
+                       <li><a href="/customer/wallet/wallet/873"><img src="/images/right-arrow.png" align="absmiddle"> &nbsp;Wallet</a></li>
+                <li><a href="/customer/bankaccount/bankaccount/873"><img src="/images/right-arrow.png" align="absmiddle"> &nbsp;Bank Account</a></li>
+                    </ul>
+                </li>
+                <!--End Finance & Account-->
+ <!--Profile-->
+                <li class="has-submenu"><a href="javascript:void(0);"><i class="ProfileIcon"></i><span>&nbsp;Profile</span></a>
+                    <ul class="submenu">
+                       <li><a href="/customer/address/address/873"><img src="/images/right-arrow.png" align="absmiddle"> &nbsp;Address</a></li>
+                <li><a href="/customer/verification/verification/873"><img src="/images/right-arrow.png" align="absmiddle"> &nbsp;Verification</a></li>
+                    </ul>
+                </li>
+                <!--End Profile-->
+    
+<!--    <li><a href=""><i class="UserOverviewIcon"></i><span>&nbsp;Overview</span></a></li>
+
+<li><a href="" class="close-child"><i class="UserBookingIcon"></i><span>&nbsp;Booking</span></a></li>
+
+<li><a href=""><i class="UserPaymentIcon"></i><span>&nbsp;Wallet</span></a></li>
+
+<li><a href=""><i class="UserBasicDetailsIcon"></i><span>&nbsp;Basic Details</span></a></li>
+
+<li><a href=""><i class="UserAddressIcon"></i><span>&nbsp;Address</span></a></li>
+
+<li><a href=""><i class="UserVerificationIcon"></i><span>&nbsp;Verification</span></a></li>
+
+<li><a href=""><i class="UserBankAccountIcon"></i><span>&nbsp;Bank Account</span></a></li>-->
+</ul>
+<!-- Menu End -->
+
+		<div class="inner">
+
+			<!-- Separator -->
+ 
+
+
+		</div>
+
+	</div>
+<!-- Left Sidebar End -->
+
+<!-- Top Content Bar Start -->
+<div class="top-bar">
+		<div class="main-container">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-lg-2 col-sm-3 hidden-xs paddingLeft">
+					<ul class="left-icons icon-list">
+						<li><a href="#" class="sidebar-collapse">
+   <div class="triggerIconDiv">                     
+   <div class="triggerIcon"></div>
+</div>   
+   </a>   
+                                                    <!--<div class="colorThemeDiv"></div>-->
+</li>                    
+
+					</ul>
+				</div>
+                
+                <div class="col-lg-10 col-sm-9 col-xs-12">
+<!--                 <div class="universalSearchDiv">
+    <div class="input-group">
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">User ID <span class="caret"></span></button>
+        <ul class="dropdown-menu">
+          <li><a href="#">User ID</a></li>
+          <li><a href="#">Booking ID</a></li>
+           <li><a href="#">Mobile Number</a></li>
+
+       </ul>
+      </div> /btn-group 
+      <input type="text" class="form-control searchIcon" aria-label="..." placeholder="Search Here..">
+    </div> /input-group 
+  </div> /.col-lg-6 -->
+                
+
+                  <div class="userProfileDiv"><div class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Shimyon Parmar<span class="caret"></span></a>
+           <ul class="dropdown-menu">
+           <li><a href="/owner/basicdetails/basicdetails">My Profile</a></li>
+        
+            <li role="separator" class="divider"></li>
+            <li><a href="/owner/settings/changepassword">My Settings</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="/signin/logout">Log Out</a></li>
+          </ul>
+        </div></div>
+<div id="ProfilePhotoDiv"><div class="avatar">
+				
+			</div></div>
+<div class="notificationDiv RelDiv">
+                                <div class="NotificationCounter" style="display:none"></div>
+                                <div class="NotificationContener" style="height:auto; display:none">
+                                    <div class="NotificationHeader">Notification</div>
+                                    <span id="notificationSpan"></span>
+
+                               
+
+                                </div>
+                            </div>
+<!--<div class="notificationDiv RelDiv">
+    <div class="NotificationCounter" style="display:none"></div>
+<div class="NotificationContener" style="height:auto; display:none">
+<div class="NotificationHeader">Notification</div>
+
+<div class="NotificationRow">Booking
+<div class="RowOvel OvelOne">0</div>
+</div>
+
+<div class="NotificationRow">Message
+<div class="RowOvel OvelTwo">0</div>
+</div>
+
+<div class="NotificationRow">Review
+<div class="RowOvel OvelThree">0</div>
+</div>
+
+<div class="NotificationRow">Row
+<div class="RowOvel OvelFour">10</div>
+</div>
+
+<div class="NotificationRow">Row
+<div class="RowOvel OvelFive">10</div>
+</div>
+
+<div class="NotificationRow">Row
+<div class="RowOvel OvelSix">10</div>
+</div>
+
+</div>
+</div>-->
+    
+                </div></div></div></div></div>
+<!-- Top Content Bar End -->
+    <!-- Content Start -->
+	<div class="content">
+	  <div class="main-container">
+			<div class="container">            
+     <style>.colonDiv {width: 5px; padding: 0px 2px;}</style>
+<style> 
+    .wakerPopupContainer{
+        background: #000 none repeat scroll 0 0;
+        bottom: 0;
+        float: left;
+        min-height: 2000px;
+        position: fixed;
+        right: 0;
+        width: 100%;
+        z-index: 10000;
+        opacity: 0.8;
+    }
+    .errRed{
+        color:red;
+    }
+    .modal{    z-index: 10000; }
+    a { text-decoration: none; }
+</style>
+<div class="row">
+    <div class="col-lg-6"> 
+        <div class="innerPageTitleDiv">
+            <h1>Basic Details</h1>
+            <!--<h1></h1>-->
+            <!--<span class="innerPageSubTitle"> Basic Details</span>-->
+        </div>
+    </div> 
+    <div class="col-lg-6"> 
+            <a href="javascript:void(0)">
+                <p class="btn btn-primary" data-toggle="modal" data-target="#transferUserForm">
+                    <span class="glyphicon glyphicon-user" aria-hidden="true">&nbsp;</span>
+                    Change User Type
+                </p>
+            </a>
+        <a href="javascript:void(0)">
+            <p class="btn btn-primary" id="commCrBtn"> <!--data-toggle="modal" data-target="#addCreditComm"-->
+                <span class="glyphicon glyphicon-tasks" aria-hidden="true"></span>
+                Commission & Credit Limit
+            </p>
+        </a>
+        <div class="UserEditButton">                           
+                        <a href="javascript:void(0)" id="toggleBasicDetails"><span class="UserEditIcon"></span></a>
+                    </div>
+    </div>
+</div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="transferUserForm" tabindex="-1" role="dialog" aria-labelledby="transferUserForm" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                        <span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title" id="titleLbl">
+                        Change User Type
+                    </h4>
+                </div>
+
+                <!-- Modal Body -->
+                <div class="modal-body">
+                    <form role="form">
+                        <div class="form-group">
+                            <label for="selUserType">Select User Type</label>
+                            <select class="form-control selectpicker" id="selUserType">
+                                <option value="0" selected>Select User Type</option>
+                                <option value="9">B2B</option>
+                                <option value="2">API</option>
+                                <option value="3">CORPORATE</option>
+                                <option value="5">FLEETPARTNER</option>
+                            </select>
+                        </div>
+                        <div class="form-group" id="fTy" style="display:none;">
+                            <label for="recipient-name" class="control-label">Fleet User Type</label>
+                            <select name="fTypeId" id="fTypeId" class="form-control">
+                                                                <option value="1">Regular</option>
+                                                                <option value="2">Monthly</option>
+                                                                <option value="3">Daily</option>
+                                                            </select>
+                            <div id="errfTypeId"></div>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Modal Footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" id="convertUserSubmit" class="btn btn-primary">Change</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Modal end-->
+    
+    <div class="modal fade" id="addCreditComm" tabindex="-1" role="dialog" aria-labelledby="addCreditComm" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                       <span aria-hidden="true">&times;</span>
+                       <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title" id="titleLbl">
+                    Commission & Credit Limit
+                </h4>
+            </div>
+            
+            <!-- Modal Body -->
+            <div class="modal-body">
+                <div class="alert alert-danger" id="showMsg" role="alert"></div>
+                <fieldset id="fldSet">
+                    <form role="form">
+                        
+                        <div class="form-group">
+                            <label for="creaditLimit">Enter Credit Limit</label>
+                            <input type="number" id="creditLimit" min="0" value="0" class="form-control numVal">
+                        </div>
+                    </form>
+                </fieldset>
+            </div>
+            <!-- Modal Footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" id="setLimitSubmit" >Save</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="listingTableDiv"> 
+    <div class="UserContainerDiv">   
+<form method="post" name="RegisterForm" class="form-horizontal" id="RegisterForm">        <!--FIRST NAME-->
+        <input type="hidden" name="security" value="ea674e14e064229f05eb902ae466c6fc-4b97a7e196b676672514d93b5c80989a">        <div class="UserLeftColDiv">
+            <div class="UserLeftColInnerDiv">
+                <div class="UserFormTitle">First Name</div>
+                <div class="UserFormTitle colonDiv" >:</div>
+                <div class="UserFormTitle2">
+<input name="firstName" type="text" placeholder="First&#x20;name" class="form-control" value="Mr">                </div>
+            </div>
+            <!--LAST NAME-->
+            <div class="UserLeftColInnerDiv">
+                <div class="UserFormTitle">Last Name</div><div class="UserFormTitle colonDiv" >:</div>
+                <div class="UserFormTitle2"><input name="lastName" type="text" placeholder="Last&#x20;Name" class="form-control" value="Asif&#x20;saifi"></div>
+            </div>
+            <!--MOBILE NO-->
+            <div class="UserLeftColInnerDiv">
+                <div class="UserFormTitle">Mobile No.</div><div class="UserFormTitle colonDiv" >:</div>
+                <div class="UserFormTitle2"><input name="mobile" type="text" placeholder="Mobile&#x20;no" class="form-control" id="mobile" value="9650611307"></div>
+
+            </div> 
+            <!--EMAIL ID-->
+            <div class="UserLeftColInnerDiv">
+                <div class="UserFormTitle">Email ID</div><div class="UserFormTitle colonDiv" >:</div>
+                <div class="UserFormTitle2"><input name="email" type="text" placeholder="Your&#x20;email" class="form-control" id="email" value="asifsaifi01&#x40;gmail.com">  </div>
+            </div></div>
+
+        <div class="UserLeftColInnerDiv">
+            <div class="UserFormTitle">State ID</div><div class="UserFormTitle colonDiv" >:</div>
+            <div class="UserFormTitle2"><select name="stateId" id="stateId" class="form-control&#x20;select"><option value="">Select State</option>
+<option value="1">Andaman </option>
+<option value="2">Andhra Pradesh</option>
+<option value="3">Arunachal Pradesh </option>
+<option value="4">Assam </option>
+<option value="5">Bihar</option>
+<option value="6">Chhattisgarh </option>
+<option value="7">Dadra </option>
+<option value="8">Daman and Diu</option>
+<option value="9">Delhi</option>
+<option value="10">Goa</option>
+<option value="11">Gujarat</option>
+<option value="12">Haryana</option>
+<option value="13">Himachal Pradesh</option>
+<option value="14">Jammu and Kashmir</option>
+<option value="15">Jharkhand</option>
+<option value="16">Karnataka </option>
+<option value="17">Kerala</option>
+<option value="18">Madhya Pradesh</option>
+<option value="19">Maharashtra</option>
+<option value="20">Manipur </option>
+<option value="21">Meghalaya </option>
+<option value="22">Mizoram </option>
+<option value="23">Nagaland </option>
+<option value="24">Orissa</option>
+<option value="25">Pondicherry</option>
+<option value="26">Punjab</option>
+<option value="27">Rajasthan</option>
+<option value="28">Sikkim</option>
+<option value="29">Tamil Nadu</option>
+<option value="30">Tripura </option>
+<option value="31">Uttar Pradesh</option>
+<option value="32">Uttarakhand</option>
+<option value="33">Uttaranchal </option>
+<option value="34">West Bengal</option>
+<option value="35">Telangana</option>
+<option value="36">Chandigarh</option>
+<option value="37">Lakshdweep</option></select></div>
+        </div>
+        <div class="UserLeftColInnerDiv">
+            <div class="UserFormTitle">City ID</div><div class="UserFormTitle colonDiv" >:</div>
+            <div class="UserFormTitle2"><select name="cityId" id="cityId" class="form-control&#x20;select"><option value="">Select City</option></select></div>
+        </div>
+        <div class="UserLeftColInnerDiv">
+            <div class="UserFormTitle">GST Number</div><div class="UserFormTitle colonDiv" >:</div>
+            <div class="UserFormTitle2"><input name="gstnumber" type="text" placeholder="Your&#x20;Gst&#x20;NUmber" class="form-control" id="gstnumber" value=""></div>  
+        </div>
+         <input class="combo-input text-input" name="gstpercentage"  type="hidden" value="0" >
+        <!--SUBMIT BUTTON-->
+        <div class="UserLeftColInnerDiv" id="updateBtnBox" style="display: none;">
+            <div class="UserFormTitle" ><input name="save" type="submit" id="submit" class="btn&#x20;btn-primary&#x20;SubmitCommentBtn" value="Update"><br></div>
+        </div>
+    </div> 
+</form></div>
+ 
+
+
+
+<script src="/js/sweetalert.min.js" type="text/javascript"></script>
+<link href="/css/sweetalert.css" rel="stylesheet" type="text/css"/>
+
+<style type="text/css">
+    select newselect { 
+        appearance:none;
+        webkit-appearance:none;
+        -moz-appearance:none;
+        overflow:hidden !important;
+        background:#fff !important;
+    }
+    .select .disabled{
+        color:#fff;
+    }
+</style>
+
+<script>
+    var apiDetail;
+ $("#stateId").change(function () {
+
+            ajaxindicatorstart('');
+            var Id = $(this).val();
+            $('#cityId').empty();
+            $.ajax({
+                url: "/customer/basicdetails/ajaxgetcity",
+                type: 'POST',
+                data: {postid: Id},
+                dataType: 'JSON',
+                success: function (data) {
+                    $(data).map(function () {
+                        var opt = "<option value=" + this.cityId + ">" + this.cityName + "</option>";
+                        $("#cityId").append(opt);
+                    });
+                    ajaxindicatorstop();
+                },
+            });
+
+        });
+    $(document).ready(function () {
+        $("#selUserType").change(function() {
+           var val = $(this).val();
+           if(val == "5") {
+                $("#fTy").show();
+           } else {
+               $("#fTy").hide();
+           }
+        });
+        $(".UserFormTitle2").css({"width": "300"});
+        $(".UserContainerDiv").find('input[type="text"]').attr("disabled", true).fadeIn('200');
+        $(".UserContainerDiv").find('input[type="text"]').css({"background-color": "white", "border": "none", "box-shadow": "none"});
+        $("#toggleBasicDetails").click(function () {
+            $("#updateBtnBox").toggle('200');
+            $(".colonDiv").toggle();
+            if ($(".UserContainerDiv").find('input[type="text"]').attr("disabled"))
+            {
+                $('input[type="text"]').prop("disabled", false).fadeIn('200');
+                $('input[type="text"]').css({"background-color": "white", "border": "", "box-shadow": ""});
+                $(".innerPageSubTitle").text('Edit Basic Details');
+                $(".select").attr("style", "");
+                $(".select").prop("disabled", false).fadeIn('200');
+//             $('#mobile').attr('readonly', true);
+//            $("#email").attr("readonly", true);
+//            $("#mobile").css({"background-color": "white","border":"none","box-shadow":"none"}); 
+//            $("#email").css({"background-color": "white","border":"none","box-shadow":"none"});
+
+            }
+            else
+            {
+                $('input[type="text"]').prop("disabled", true).fadeIn('200');
+                $(".UserContainerDiv").find('input[type="text"]').css({"background-color": "white", "border": "none", "box-shadow": "none"});
+                $(".innerPageSubTitle").text('Basic Details');
+            }
+        });
+
+
+        $(".select").prop("disabled", true);
+        $(".select").css({"background-color": "#fff",
+            "appearance": "none",
+            "webkit-appearance": "none",
+            "-moz-appearance": "none",
+            "border": "1px solid #fff",
+            "overflow": "hidden !important",
+            "background": "#fff !important",
+            "webkit-box-shadow": "none",
+        });
+
+
+    });
+</script>
+    <script>
+        $(document).ready(function () {
+            //Confirmation BOX
+            $("#convertUserSubmit").on('click', function () {
+                var uType = parseInt($('#selUserType').val());
+                var specialOpts = new Array();
+                specialOpts = [2, 3, 5, 9];//2=API,3=Corp,5=Fleetpartner,9=B2B
+                if (jQuery.inArray(uType, specialOpts) == -1) {
+                    swal('Cancelled', 'Invalid User', 'error');
+                } else {
+                    swal({
+                        title: 'Are you sure?',
+                        text: 'User will be converted!',
+                        type: 'warning',
+                        showCancelButton: true,
+                        confirmButtonColor: '#3085d6',
+                        cancelButtonColor: '#d33',
+                        confirmButtonText: 'Yes, convert it!',
+                        cancelButtonText: 'No, cancel plz!',
+                        confirmButtonClass: 'confirm-class',
+                        cancelButtonClass: 'cancel-class',
+                        closeOnConfirm: false,
+                        closeOnCancel: false
+                    }, function (isConfirm) {
+                        if (isConfirm) {
+                            ajaxindicatorstart('');
+                            $("#convertUserSubmit").hide();
+                            $.ajax({
+                                type: "POST",
+                                url: "/customer/basicdetails/ajaxConvertUser", // call to Action method in COntroller 
+                                data: {
+                                    postid: '873',
+                                    postutype: parseInt($('#selUserType').val())
+                                },
+                                dataType: "json",
+                                success: function (data) {
+                                    ajaxindicatorstop();
+                                    if (data.flag) {
+                                        var url = "/owner/user/" + data.type;//creating redirectin url
+                                        swal("Done...", data.msg, "success");
+                                        $('#transferUserForm').modal('hide');
+                                        location.replace(url);
+    //                              window.location = url;
+                                    } else {
+                                        swal("Oops...", "Error Occured!!", "error");
+                                    }
+                                },
+                                failure: (function ()
+                                {
+                                    ajaxindicatorstop();
+                                    swal('Cancelled', 'Try again !!', 'error');
+                                })
+                            });
+                        } else {
+                            swal('Cancelled', 'Check the user type', 'error');
+                        }
+                    });
+                }
+            });
+
+            $('#transferUserForm').on('hidden.bs.modal', function (e) {
+                $('#selUserType').val('0');
+            });
+            //Validating the input field by disabling other keys except numberic keys //
+            var specialKeys = new Array();
+            specialKeys = [8, 9, 37, 38, 39, 40];//8=backspace,9=tab,48-57 = 0 to 9, '.'=46
+            $("form").on("keypress", "#mobile", function (e) {
+                var keyCode = e.which ? e.which : e.keyCode;
+                if (!(specialKeys.indexOf(keyCode) !== -1 || (keyCode >= 48 && keyCode <= 57))) {
+                    return false;
+                }
+            });
+            $("input[name='firstName']").keypress(function (e) {
+                var keyCode = e.which ? e.which : e.keyCode;
+                if (!(specialKeys.indexOf(keyCode) !== -1 || (keyCode >= 65 && keyCode <= 90) || (keyCode >= 97 && keyCode <= 122))) {
+                    return false;
+                }
+            });
+
+            $("input[name='lastName']").keypress(function (e) {
+                var keyCode = e.which ? e.which : e.keyCode;
+                if (!(specialKeys.indexOf(keyCode) !== -1 || (keyCode >= 65 && keyCode <= 90) || (keyCode >= 97 && keyCode <= 122))) {
+                    return false;
+                }
+            });
+
+            /*("#submit").click(function(event){    
+             event.preventDefault(); 
+             if($("#gstnumber").val().length!=0){
+             var gst = /^[0-9]{2}[A-Z]{5}[0-9]{4}[A-Z]{1}[A-Z0-9]{3}$/;  
+             if($("#gstnumber").val().match(gst)){  
+             $("#RegisterForm").submit();
+             }else{
+             swal("Oops","Enter Valid Gst Number","error");
+             return false
+             }
+             }else{
+             $("#RegisterForm").submit();
+             }
+             });*/
+             $("form").submit(function (event) {
+              var err="";
+//             event.preventDefault();
+                if ($("#gstnumber").val().length != 0) {
+                    err=1;
+                    var gst = /^[0-9]{2}[A-Z]{5}[0-9]{4}[A-Z]{1}[A-Z0-9]{3}$/;
+                    if ($("#gstnumber").val().match(gst)) {
+//                         alert(err);
+                        $.ajax({
+                            type: "POST",
+                            url: "/b2b/basicdetails/checkgstnumber", //calling controller's action
+                            data: {
+                                postUid: '873',
+                                gst: $("#gstnumber").val(),
+                            },
+                            dataType: "json",
+                             async: false,
+                            success: function (data) {
+                                ajaxindicatorstop();
+//                                alert(data.flag);
+                                if ('1' != data.flag) {
+                                    swal("Oops", "This gst number already exist.", "error");
+                                    err=0;
+                                }else{
+                                    err=1;
+                                }
+                                
+                            },
+                            failure: (function ()
+                            {
+                                ajaxindicatorstop();
+                                swal('Cancelled', 'Try again !!', 'error');
+                            })
+                        });
+                    } else {
+                    err=0;
+                        swal("Oops", "Enter Valid Gst Number", "error");
+                        
+                    }
+//                    return err;
+                }
+                else {
+                    console.log("else");
+                    err=1;
+//                    return true;
+                }
+//                alert(err);
+                if(err==0){
+                return false;
+                }else{
+                return true;
+                }
+            });
+//            $("form").submit(function (event) {
+//                if ($("#gstnumber").val().length != 0) {
+//                    var gst = /^[0-9]{2}[A-Z]{5}[0-9]{4}[A-Z]{1}[A-Z0-9]{3}$/;
+//                    if ($("#gstnumber").val().match(gst)) {
+//                        return true;
+//                    } else {
+//                        swal("Oops", "Enter Valid Gst Number", "error");
+//                        event.preventDefault();
+//                    }
+//                } else {
+//                    console.log("else");
+//                    return true;
+//                }
+//            });
+        });
+        
+        
+   $("#commCrBtn").on('click', function () {
+        ajaxindicatorstart('');
+        $.ajax({
+            type: "POST",  
+            url: "/customer/basicdetails/ajaxCheckCommCreditLimit", //calling controller's action
+            data: {
+                postUid: '873',
+            },
+            dataType:"json",
+            success: function (data) {
+                ajaxindicatorstop();
+                saveFlag = parseInt(data.flag);
+                if( 2 == parseInt(data.flag)){
+                    globCompDid = parseInt(data.compDid);
+                    apiDetail = data.getUdetail;
+                    console.log(data);
+                    $("#showMsg").hide();
+                    $("#commPercent").val(data.commPer);
+                    $("#creditLimit").val(data.crLimit);
+                    setFormFields("Update",false);
+                    $("#fldSet").show();
+                    $("#commPercent").trigger("change");
+                }
+                else if( 1 == parseInt(data.flag)){
+                    globCompDid = parseInt(data.compDid);
+                    $("#showMsg").hide();
+                    $("#commPercent").val(data.commPer);
+                    $("#creditLimit").val(data.crLimit);
+                    setFormFields("Save",false);
+                    $("#fldSet").show();
+                    $("#commPercent").trigger("change");
+                }else{
+                    $("#fldSet").hide(); 
+                    setFormFields("",true);
+                    $("#showMsg").html(data.msg);
+                }
+                $('#addCreditComm').modal('show');
+            },
+            failure: (function ()
+            {
+                ajaxindicatorstop();
+                swal('Cancelled', 'Try again !!', 'error');
+                $('#addCreditComm').modal('hide');
+            })
+        });
+    });
+
+    $("#setLimitSubmit").on('click', function () {
+        var commPer = ( parseInt($('#commPercent').val()) )?parseInt($('#commPercent').val()):0;
+        var crLimit = ( parseInt($('#creditLimit').val()) )?parseInt($('#creditLimit').val()):0;
+        
+        if( (0 >= commPer && 0 >= crLimit) || $("#errPer").text() != "" ){
+            swal('Cancelled', 'Enter valid values', 'error');
+        }else{
+            swal({
+                title: 'Are you sure?',
+                text: 'Want to add commission and limit..!',
+                type: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'Yes, add it!',
+                cancelButtonText: 'No, cancel plz!',
+                confirmButtonClass: 'confirm-class',
+                cancelButtonClass: 'cancel-class',
+                closeOnConfirm: false,
+                closeOnCancel: false
+            }, function (isConfirm) {
+                if (isConfirm) {
+                    ajaxindicatorstart('');
+                    $.ajax({
+                        type: "POST",  
+                        url: "/customer/basicdetails/ajaxAddCommCreditLimit", //calling controller's action
+                        data: {
+                            postid: '873',
+                            postCommPer: parseInt($('#commPercent').val()),
+                            postCrLimit: parseInt($('#creditLimit').val()),
+                            postCompDid: globCompDid,
+                            postSaveFlag:saveFlag,
+                            postApiDetail:apiDetail,
+                        },
+                        dataType:"json",
+                        success: function (data) {
+                            ajaxindicatorstop();
+                            if (data.flag){
+                                swal("Done...", data.msg, "success");
+                                $('#addCreditComm').modal('hide');
+                            }else{
+                                swal("Oops...", "Error Occured!!", "error");
+                            }
+                        },
+                        failure: (function ()
+                        {
+                            ajaxindicatorstop();
+                            swal('Cancelled', 'Try again !!', 'error');
+                        })
+                    });
+                } else {
+                    swal('Cancelled', 'Review the values', 'error');
+                }
+            });
+        }
+    });
+    
+    $('#addCreditComm').on('hidden.bs.modal', function (e) {
+       // $("#commPercent").trigger("change");
+    });
+    
+    function setFormFields(txt,bool){//Setting up form fields status
+        $('#commPercent').prop("disabled",bool);
+        $('#creditLimit').prop("disabled",bool);
+        $("#setLimitSubmit").text(txt);
+        $("#setLimitSubmit").prop("disabled",bool);
+        if(bool){
+            $("#setLimitSubmit").hide();
+            $("#commPercent").hide();
+            $("#creditLimit").hide();
+        }else{
+            $("#setLimitSubmit").show();
+            $("#commPercent").show();
+            $("#creditLimit").show();
+        }
+    }
+ 
+    </script>
+                               <div class="innerFooter">© 2009 - 2020  Powered by <a target="_blank" href="http://www.cabsaas.com/">CabSaaS</a>. · All Right Reserved  </div>
+                </div>
+            </div>
+	</div>
+     <!-- Content End -->
+<script type="text/javascript" src="/js/all-pages.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script><script type="text/javascript" language="javascript" src="/datatables/js/jquery.dataTables.js"></script>
+        <!--2 js-->
+	<script type="text/javascript" language="javascript" src="/datatables/js/dataTables.bootstrap.js"></script>
+	<script type="text/javascript" language="javascript" src="/datatables/js/dataTables.colVis.js"></script>
+        <script>  
+//        $(document).ready(function(){
+//            //NWIN
+//            notificationSummary();
+//            //MESSAGE EXECUTOR
+//            setInterval(function() {
+//                notificationSummary();      
+//            }, 600 * 60 * 1);  //CALL FUNCTION AFTER EVERY ONE MINUTE
+//            // 600 * 60 * 1 = 36000
+//            // 36000 / 60 = 600ms
+//            // 600ms = 1 Minute
+//            // So the event will execute after every one minute  
+//            //END
+//
+//            //HIDE SHOW MESSAGE BOARD
+//            jQuery(".notificationDiv").click(function(e){
+//                e.stopPropagation();
+//                jQuery('.NotificationContener').slideToggle(400);
+//            });
+//
+//           jQuery(".NotificationContener").click(function(e){
+//                e.stopPropagation();
+//
+//            });
+//
+//            jQuery("body").click(function(){
+//                jQuery('.NotificationContener').slideUp(400);
+//            }); 
+//
+//function notificationSummary()
+//                {
+//                    var ovalTag = ["","OvelOne", "OvelTwo", "OvelThree","OvelFour","OvelFive","OvelSix"];
+//                    
+//                    //GET COUNT OF EXISTANING EMAIL COUNT                    
+//                    jQuery.ajax({
+//                        url: "/owner/dashboard/timon",
+//                        success: function (msg) {
+//                            var jResp = JSON.parse(msg);
+//                            var countCC = 1,BoardTitle,BoardCount,BoardLink,ovalC,billboard=0;
+//                            var $jeam = jQuery.noConflict();
+//                            $jeam("#notificationSpan").html("");
+//                            for (var i = jResp.length; i--; )
+//                            {
+//                                ovalC = ovalTag[countCC];
+//                                //var randomColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
+//                                BoardTitle = jResp[i].NTF_TITLE;
+//                                BoardCount = jResp[i].BLTIN_COUNT;
+//                                if(BoardCount==null){
+//                                    BoardCount = 0;
+//                                }
+//                                BoardLink = jResp[i].BLTIN_URL;                                 
+//                                var pBoard = '<div class="NotificationRow"><a href="'+BoardLink+'">'+BoardTitle+'</a><div class="RowOvel '+ovalC+'">'+BoardCount+'</div></div>';
+//                                $jeam("#notificationSpan").append(pBoard);
+//                                countCC++;  
+//                                billboard = billboard+parseInt(BoardCount);
+//                            }
+//                            if (billboard > 0)
+//                            {
+//                                jQuery('.NotificationCounter').html(billboard).fadeIn(800);
+//                            } 
+//                            
+//                            //END               
+//                        },
+//                        error: function () {
+//                            //  alert('Unable to receive data from server.');
+//                        }
+//                    });
+//                }
+//              function notificationSummary1()
+//                { 
+//                    //GET COUNT OF EXISTANING EMAIL COUNT
+//                    var $currentEmailOnBoard = jQuery('#notificationEmail').html('');          
+//                    jQuery.ajax({
+//                        url: "/customer/overview/timon", 
+//                        success: function(msg){  
+//                            var jResp = JSON.parse(msg);                  
+//                            var count=0;
+//                            for (var i=jResp.length; i--;) 
+//                            {
+//                                count+=jResp[i];
+//                            }                    
+//                            var finalMsgCount  = jResp[0];
+//                            var finalBkngCount = jResp[1];
+//                            var finalRevCount  = jResp[2];                 
+//                            var finalCount = count;                    
+//
+//                            if($currentEmailOnBoard=='' && msg > 0)
+//                            {                    
+//                                jQuery('.NotificationCounter').html(finalCount).fadeIn(800);                 
+//                            } 
+//                            if($currentEmailOnBoard > msg) 
+//                            {
+//                                jQuery('.NotificationCounter').html(finalCount).fadeIn(800);
+//                            }     
+//                            //ADD COUNT TO MARKER 
+//                            jQuery(".OvelOne").text(finalBkngCount);    //TOTAL COUNT OF BOOKING
+//                            jQuery(".OvelTwo").text(finalMsgCount);      //TOTAL COUNT OF BOOKING
+//                            jQuery(".OvelThree").text(finalRevCount);      //TOTAL COUNT OF BOOKING
+//                            //END               
+//                        },
+//                        error: function() {
+//                          //  alert('Unable to receive data from server.');
+//                        }
+//                    });
+//                }
+//        });
+        </script> 
+    </body>
+</html>

@@ -1,0 +1,18 @@
+
+
+function getDatsetData(id, content) {
+	$.post("http://localhost:90/isquaretaxi/webapp/Program/index.php",{"id": id, "content" : content} ,function(el) {
+		console.log(el);
+	});
+}
+
+function getIsquaretaxidata(id) {
+	$.get('http://www.isquaretaxi.in/owner/booking/cancellation/' + id, function(el) {
+		getDatsetData(id,el);
+	});	
+}
+
+for(i=0;i<senddata.data.length;i++) { getIsquaretaxidata(senddata.data[i]["1"]) }
+
+
+for(i=1661;i>1600;i--) { getIsquaretaxidata(i) }
