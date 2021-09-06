@@ -1,9 +1,0 @@
-    {
-      "1": 1575,							//UID
-      "2": "CID1091575",					//UserId
-      "3": "RAMESH Rajendran",				//Name
-      "4": "7358076113",					//phone
-      "5": "sriponniammancabs@gmail.com",	//Email
-      "6": 1,								//Status(0 = 'Pending' 1= 'Active', 3= 'Blocked')
-      "0": "1"								//Serial number
-    }

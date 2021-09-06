@@ -1,0 +1,62 @@
+.tbl_action_btn{
+    padding : 4px 6px 0px !important;
+    line-height: 1.5 !important;
+    margin-top: -2px;
+}
+.page_title{
+    font-size: 1.75rem;
+}
+.tbl_action_a{
+    padding: 5px 7px 3px !important;
+    line-height: 1.5 !important;
+}
+.op_lbl{
+    font-size: 14px;
+    font-weight: 600;
+}
+.bt_lbl{
+    font-size: 15px;
+}
+.soc_lbl{
+    font-size: 14px;
+}
+.iconCard{
+    font-size: 50px;
+}
+.dropdownMenu{
+    transform: translate3d(2px, 28px, 0px)!important;
+    max-height: 150px;
+    overflow-y: scroll;
+    min-width: 5rem;
+    border-radius: 0 !important;
+}
+.error{
+    color: red;
+}
+.cardBorderError{
+    border:1px solid red !important;
+}
+
+.modal-fullscreen{
+    width: 100vw;
+    max-width: none;
+    height: 100%;
+    margin: 0;
+}
+.close-icon{
+    font-size: 20px;
+    color: brown;
+}
+.search-icon{
+    font-size:medium;
+}
+.custom-badge{
+    position: absolute;
+    top: 2px;
+}
+.image-remove-icon{
+    font-size: medium;
+}
+.custom_btn{
+    padding: 8px 9px !important;
+}

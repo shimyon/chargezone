@@ -1,0 +1,2 @@
+(this.webpackJsonpchargezone=this.webpackJsonpchargezone||[]).push([[8],{490:function(e,a,n){"use strict";n.r(a);var t=n(1),s=n.n(t),c=n(28);a.default=()=>s.a.createElement(c.a,{to:"/user/login"})}}]);
+//# sourceMappingURL=views.e5e4f8d5.chunk.js.map
