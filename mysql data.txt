@@ -1,0 +1,31 @@
+"C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqldump" -h db-mysql-do-user-8787659-0.b.db.ondigitalocean.com --port=25060 -u temp -pq9f70h82kvuggek6 czdb --routines --no-data> D:\czdb.sql
+
+
+  array (
+        'driver' => 'mysql',
+        'url' => NULL,
+        'host' => 'db-mysql-do-user-8787659-0.b.db.ondigitalocean.com',
+        'port' => '25060',
+        'database' => 'czdb',
+        'username' => 'doadmin',
+        'password' => 'kgk6an15x12mcg75',
+        'unix_socket' => '',
+        'charset' => 'utf8mb4',
+        'collation' => 'utf8mb4_unicode_ci',
+        'prefix' => '',
+        'prefix_indexes' => true,
+        'strict' => false,
+        'engine' => NULL,
+        'options' => 
+        array (
+        ),
+		
+		
+		
+		
+		file_put_contents(/var/www/html/admin/storage/framework/sessions/1wms4Ml3PUeKKmxSzrl8I5DFKzUAXBtBVk3UyM5c): failed to open stream: No such file or directory
+
+
+SET PASSWORD FOR 'root'@'localhost' = PASSWORD('forge'); 
+
+

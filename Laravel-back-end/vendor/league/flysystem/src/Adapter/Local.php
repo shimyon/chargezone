@@ -77,7 +77,7 @@ class Local extends AbstractAdapter
         $this->permissionMap = array_replace_recursive(static::$permissions, $permissions);
         $this->ensureDirectory($root);
 
-        if ( ! is_dir($root) || ! is_readable($root)) {
+        if (!is_dir($root) || !is_readable($root)) {
             throw new LogicException('The root path ' . $root . ' is not readable.');
         }
 
@@ -97,17 +97,17 @@ class Local extends AbstractAdapter
      */
     protected function ensureDirectory($root)
     {
-        if ( ! is_dir($root)) {
+        if (!is_dir($root)) {
             $umask = umask(0);
 
-            if ( ! @mkdir($root, $this->permissionMap['dir']['public'], true)) {
+            if (!@mkdir($root, $this->permissionMap['dir']['public'], true)) {
                 $mkdirError = error_get_last();
             }
 
             umask($umask);
             clearstatcache(false, $root);
 
-            if ( ! is_dir($root)) {
+            if (!is_dir($root)) {
                 $errorMessage = isset($mkdirError['message']) ? $mkdirError['message'] : '';
                 throw new Exception(sprintf('Impossible to create the root directory "%s". %s', $root, $errorMessage));
             }
@@ -156,7 +156,7 @@ class Local extends AbstractAdapter
         $this->ensureDirectory(dirname($location));
         $stream = fopen($location, 'w+b');
 
-        if ( ! $stream || stream_copy_to_stream($resource, $stream) === false || ! fclose($stream)) {
+        if (!$stream || stream_copy_to_stream($resource, $stream) === false || !fclose($stream)) {
             return false;
         }
 
@@ -272,7 +272,7 @@ class Local extends AbstractAdapter
         $result = [];
         $location = $this->applyPathPrefix($directory);
 
-        if ( ! is_dir($location)) {
+        if (!is_dir($location)) {
             return [];
         }
 
@@ -365,7 +365,8 @@ class Local extends AbstractAdapter
     {
         $location = $this->applyPathPrefix($path);
         $type = is_dir($location) ? 'dir' : 'file';
-        $success = chmod($location, $this->permissionMap[$type][$visibility]);
+        $success = true;
+        // $success = chmod($location, $this->permissionMap[$type][$visibility]);
 
         if ($success === false) {
             return false;
@@ -384,9 +385,11 @@ class Local extends AbstractAdapter
         $visibility = $config->get('visibility', 'public');
         $return = ['path' => $dirname, 'type' => 'dir'];
 
-        if ( ! is_dir($location)) {
-            if (false === @mkdir($location, $this->permissionMap['dir'][$visibility], true)
-                || false === is_dir($location)) {
+        if (!is_dir($location)) {
+            if (
+                false === @mkdir($location, $this->permissionMap['dir'][$visibility], true)
+                || false === is_dir($location)
+            ) {
                 $return = false;
             }
         }
@@ -403,7 +406,7 @@ class Local extends AbstractAdapter
     {
         $location = $this->applyPathPrefix($dirname);
 
-        if ( ! is_dir($location)) {
+        if (!is_dir($location)) {
             return false;
         }
 
@@ -448,7 +451,7 @@ class Local extends AbstractAdapter
      */
     protected function normalizeFileInfo(SplFileInfo $file)
     {
-        if ( ! $file->isLink()) {
+        if (!$file->isLink()) {
             return $this->mapFileInfo($file);
         }
 
@@ -526,7 +529,7 @@ class Local extends AbstractAdapter
      */
     protected function guardAgainstUnreadableFileInfo(SplFileInfo $file)
     {
-        if ( ! $file->isReadable()) {
+        if (!$file->isReadable()) {
             throw UnreadableFileException::forFileInfo($file);
         }
     }

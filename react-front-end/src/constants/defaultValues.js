@@ -29,8 +29,10 @@ export const adminRoot = '/app';
 export const buyUrl = 'https://1.envato.market/k4z0';
 export const searchPath = `${adminRoot}/#`;
 export const servicePath = 'https://api.coloredstrategies.com';
-export const baseAPI = 'http://127.0.0.1:8000/api';
+// export const baseAPI = 'http://127.0.0.1:8000/api';
 // export const baseAPI = 'https://bss.chargezone.co/admin/public/api';
+export const baseAPI = 'https://stagingbss.mychargezone.com/admin/public/api';
+
 
 export const loginAPI = `${baseAPI}/login`;
 export const validateOTPAPI = `${baseAPI}/validateOTP`;
@@ -208,7 +210,7 @@ export const currentUser = {
   img: '/assets/img/profiles/profimg.png',
   username: 'Last seen today 15:24',
   email: 'Last seen today 15:24',
-  token : 'abc',
+  token: 'abc',
   role: UserRole.Admin
 }
 
