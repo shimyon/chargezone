@@ -10,6 +10,21 @@ Ankur Shah Ritesh: 👇🏻manager role
 Username: testmanager
 Password: tesrmanager
 
+Prod operator
+
+nil_botanical
+NilP
+
+EV QR: 123456,
+CB 1 QR: 111111,
+CB 2 QR: 222222,
+
+Initially unapir withh 1001 1001 battery.
+
+user credintials for dhundhahera hub:
+user: dhundaheraOP
+password: nilp
+
 
 
 testing url

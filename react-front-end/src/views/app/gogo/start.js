@@ -267,22 +267,9 @@ const Start = ({ match, intl }) => {
           case 'step4':
             let error = validateOTP();
             if (error == null) {
-              BevAuthToekn().then(res => {
-                bevTokenData.success = res.data.success;
-                bevTokenData.errorMessage = res.data.errorMessage;
-                bevTokenData.validity = null;
-                if (res.data.success) {
-                  bevTokenData.authToken = res.data.authToken;
-                  bevTokenData.successMessage = res.data.successMessage;
-                  bevTokenData.validity = res.data.validity;
-                }
-                stopAsyncLoading(extraIndex);
-                goToNext();
-                step.isDone = true;
-              }).catch(err => {
-                createNotification("something went wrong");
-                stopAsyncLoading(extraIndex);
-              });
+              goToNext();
+              step.isDone = true;
+
             } else {
               createNotification(error);
             }
@@ -300,19 +287,45 @@ const Start = ({ match, intl }) => {
             //   });
             return;
           case 'step5':
-            validatePairEVAPICall({ otp: _otp, ev_qr_code: qrscan_val4 })
-              .then((res) => {
-                if (res.data.status === 1) {
-                  goToNext();
-                  step.isDone = true;
-                } else
+            debugger
+            BevAuthToekn().then(res => {
+              debugger
+              bevTokenData.success = res.data.success;
+              bevTokenData.errorMessage = res.data.errorMessage;
+              bevTokenData.validity = null;
+              if (res.data.success) {
+                bevTokenData.authToken = res.data.authToken;
+                bevTokenData.successMessage = res.data.successMessage;
+                bevTokenData.validity = res.data.validity;
+              }
+              DriveEligibility().then(resdriver => {
+                debugger
+                if (res.data.success) {
+                  if (resdriver.data.status === 1) {
+                    validatePairEVAPICall({ otp: _otp, ev_qr_code: qrscan_val4 })
+                      .then((respair) => {
+                        if (respair.data.status === 1) {
+                          goToNext();
+                          step.isDone = true;
+                        } else
+                          createNotification(respair.data.msg);
+                        stopAsyncLoading(extraIndex);
+                      }).catch(error => {
+                        createNotification("something went wrong");
+                        stopAsyncLoading(extraIndex);
+                      });
+                  } else {
+                    createNotification(res.data.successMessage);
+                  }
+                } else {
                   createNotification(res.data.msg);
-                stopAsyncLoading(extraIndex);
-              }).catch(error => {
-                createNotification("something went wrong");
-                stopAsyncLoading(extraIndex);
+                }
+              })
+            }).catch(err => {
+              createNotification("something went wrong");
+              stopAsyncLoading(extraIndex);
+            });
 
-              });
             return;
           case 'step6':
             validateScanBatteryAPICall({ batterytype: "Charged", battery_sq: "1", batteryqrval: qrscan_val5, scanevVal: qrscan_val4 })
@@ -404,6 +417,21 @@ const Start = ({ match, intl }) => {
     };
 
     let request = await axios.post("https://admin.billionmobility.com/BEV/api/ChargeZone/GenerateAuthToken", raw);
+    return request;
+  }
+
+  const DriveEligibility = async () => {
+    const headers = {
+      'Authorization': bevTokenData.authToken
+    }
+
+    var raw = {
+      "vehicleVin": qrscan_val4
+    };
+
+    let request = await axios.post("https://admin.billionmobility.com/BEV/api/ChargeZone/isDriverEligibleForBatterySwap", raw, {
+      headers: headers
+    });
     return request;
   }
 

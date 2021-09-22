@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'mysql'), 
+    'default' => env('DB_CONNECTION', 'mysql'),
 
     /*
     |--------------------------------------------------------------------------
@@ -46,11 +46,11 @@ return [
         'mysql' => [
             'driver' => 'mysql',
             'url' => env('DATABASE_URL'),
-            'host' => env('DB_HOST', 'db-mysql-do-user-8787659-0.b.db.ondigitalocean.com'),
-            'port' => env('DB_PORT', '25060'),
-            'database' => env('DB_DATABASE', 'czdb'),
-            'username' => env('DB_USERNAME', 'temp'),
-            'password' => env('DB_PASSWORD', 'q9f70h82kvuggek6'),
+            'host' => env('DB_HOST', '127.0.0.1'),
+            'port' => env('DB_PORT', '3306'),
+            'database' => env('DB_DATABASE', 'forge'),
+            'username' => env('DB_USERNAME', 'forge'),
+            'password' => env('DB_PASSWORD', ''),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
@@ -94,7 +94,7 @@ return [
             'driver' => 'mongodb',
             'dsn' => 'mongodb+srv://' . env('MONGO_DB_USERNAME') . ':' . env('MONGO_DB_PASSWORD') . '@' . env('MONGO_DB_HOST') . '/' . env('MONGO_DB_DATABASE', 'ctunes') . '?retryWrites=true&w=majority',
             'database' => env('MONGO_DB_DATABASE'),
-        ],   
+        ],
     ],
 
     /*
@@ -127,7 +127,7 @@ return [
 
         'options' => [
             'cluster' => env('REDIS_CLUSTER', 'redis'),
-            'prefix' => env('REDIS_PREFIX', Str::slug(env('APP_NAME', 'laravel'), '_').'_database_'),
+            'prefix' => env('REDIS_PREFIX', Str::slug(env('APP_NAME', 'laravel'), '_') . '_database_'),
         ],
 
         'default' => [

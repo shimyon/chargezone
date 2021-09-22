@@ -29,3 +29,17 @@
 SET PASSWORD FOR 'root'@'localhost' = PASSWORD('forge'); 
 
 
+username = doadmin
+password = kgk6an15x12mcg75
+host = db-mysql-sep-7-backup-do-user-8787659-0.b.db.ondigitalocean.com
+port = 25060
+database = czdb
+sslmode = REQUIRED
+
+
+username = doadmin
+password = kgk6an15x12mcg75
+host = db-mysql-sep-7-backup-do-user-8787659-0.b.db.ondigitalocean.com
+port = 25060
+database = czdb
+sslmode = REQUIRED
