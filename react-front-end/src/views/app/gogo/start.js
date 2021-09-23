@@ -106,6 +106,12 @@ const Start = ({ match, intl }) => {
     "validity": null
   };
 
+  const driveVerifyDetail = {
+    "url": null,
+    "userid": null,
+    "password": null,
+    "eligible_url": null
+  };
   const createNotification = (text) => {
     NotificationManager.error(
       text,
@@ -116,6 +122,17 @@ const Start = ({ match, intl }) => {
       },
       null,
       "error filled"
+    );
+  };
+  const createNotificationInfo = (text) => {
+    NotificationManager.info(
+      text,
+      'Info!',
+      5000,
+      () => {
+        // alert('callback');
+      },
+      null
     );
   };
   const validateOTP = () => {
@@ -269,7 +286,7 @@ const Start = ({ match, intl }) => {
             if (error == null) {
               goToNext();
               step.isDone = true;
-
+              stopAsyncLoading(extraIndex);
             } else {
               createNotification(error);
             }
@@ -288,43 +305,95 @@ const Start = ({ match, intl }) => {
             return;
           case 'step5':
             debugger
-            BevAuthToekn().then(res => {
-              debugger
-              bevTokenData.success = res.data.success;
-              bevTokenData.errorMessage = res.data.errorMessage;
-              bevTokenData.validity = null;
-              if (res.data.success) {
-                bevTokenData.authToken = res.data.authToken;
-                bevTokenData.successMessage = res.data.successMessage;
-                bevTokenData.validity = res.data.validity;
-              }
-              DriveEligibility().then(resdriver => {
+            validatePairEVAPICall({ otp: _otp, ev_qr_code: qrscan_val4 })
+              .then(async (respair) => {
                 debugger
-                if (res.data.success) {
-                  if (resdriver.data.status === 1) {
-                    validatePairEVAPICall({ otp: _otp, ev_qr_code: qrscan_val4 })
-                      .then((respair) => {
-                        if (respair.data.status === 1) {
+                if (respair.data.status === 1) {
+                  if (respair.data.data && respair.data.data.driver_verify_require === 1) {
+                    createNotificationInfo("Two factor authentication check for EV");
+                    driveVerifyDetail.url = respair.data.data.driver_verify_url;
+                    driveVerifyDetail.userid = respair.data.data.driver_verify_user;
+                    driveVerifyDetail.password = respair.data.data.driver_verify_pass;
+                    driveVerifyDetail.eligible_url = respair.data.data.driver_verify_eligible_url;
+                    debugger;
+
+                    let driveToken = await BevAuthToekn();
+                    bevTokenData.success = driveToken.data.success;
+                    bevTokenData.errorMessage = driveToken.data.errorMessage;
+                    bevTokenData.validity = null;
+                    if (driveToken.data.success) {
+                      bevTokenData.authToken = driveToken.data.authToken;
+                      bevTokenData.successMessage = driveToken.data.successMessage;
+                      bevTokenData.validity = driveToken.data.validity;
+
+                      let resdriver = await DriveEligibility();
+                      if (resdriver.data.success) {
+                        if (resdriver.data.status === 1) {
                           goToNext();
                           step.isDone = true;
-                        } else
-                          createNotification(respair.data.msg);
+                          stopAsyncLoading(extraIndex);
+                        }
+                        else {
+                          createNotification(resdriver.data.successMessage);
+                          stopAsyncLoading(extraIndex);
+                        }
+                      } else {
+                        createNotification(resdriver.data.successMessage);
                         stopAsyncLoading(extraIndex);
-                      }).catch(error => {
-                        createNotification("something went wrong");
-                        stopAsyncLoading(extraIndex);
-                      });
+                      }
+                    }
+                    else {
+                      createNotification(driveToken.data.msg);
+                      stopAsyncLoading(extraIndex);
+                    }
                   } else {
-                    createNotification(res.data.successMessage);
+                    goToNext();
+                    step.isDone = true;
                   }
-                } else {
-                  createNotification(res.data.msg);
-                }
-              })
-            }).catch(err => {
-              createNotification("something went wrong");
-              stopAsyncLoading(extraIndex);
-            });
+                } else
+                  createNotification(respair.data.msg);
+                stopAsyncLoading(extraIndex);
+              }).catch(error => {
+                createNotification("something went wrong");
+                stopAsyncLoading(extraIndex);
+              });
+            // BevAuthToekn().then(res => {
+            //   debugger;
+            //   bevTokenData.success = res.data.success;
+            //   bevTokenData.errorMessage = res.data.errorMessage;
+            //   bevTokenData.validity = null;
+            //   if (res.data.success) {
+            //     bevTokenData.authToken = res.data.authToken;
+            //     bevTokenData.successMessage = res.data.successMessage;
+            //     bevTokenData.validity = res.data.validity;
+            //   }
+            //   DriveEligibility().then(resdriver => {
+            //     debugger
+            //     if (res.data.success) {
+            //       if (resdriver.data.status === 1) {
+            //         validatePairEVAPICall({ otp: _otp, ev_qr_code: qrscan_val4 })
+            //           .then((respair) => {
+            //             if (respair.data.status === 1) {
+            //               goToNext();
+            //               step.isDone = true;
+            //             } else
+            //               createNotification(respair.data.msg);
+            //             stopAsyncLoading(extraIndex);
+            //           }).catch(error => {
+            //             createNotification("something went wrong");
+            //             stopAsyncLoading(extraIndex);
+            //           });
+            //       } else {
+            //         createNotification(res.data.successMessage);
+            //       }
+            //     } else {
+            //       createNotification(res.data.msg);
+            //     }
+            //   })
+            // }).catch(err => {
+            //   createNotification("something went wrong");
+            //   stopAsyncLoading(extraIndex);
+            // });
 
             return;
           case 'step6':
@@ -411,16 +480,23 @@ const Start = ({ match, intl }) => {
   };
 
   const BevAuthToekn = async () => {
+    //"https://admin.billionmobility.com/BEV/api/ChargeZone/GenerateAuthToken"
+
+    let posturl = driveVerifyDetail.url;
     var raw = {
-      "userName": "billion-e",
-      "password": "Rtj9on$Qds("
+      "userName": driveVerifyDetail.userid, // "billion-e",
+      "password": driveVerifyDetail.password// "Rtj9on$Qds("
     };
 
-    let request = await axios.post("https://admin.billionmobility.com/BEV/api/ChargeZone/GenerateAuthToken", raw);
+    let request = await axios.post(posturl, raw);
     return request;
   }
 
   const DriveEligibility = async () => {
+    //"https://admin.billionmobility.com/BEV/api/ChargeZone/isDriverEligibleForBatterySwap"
+    debugger
+    let posturl = driveVerifyDetail.eligible_url;
+
     const headers = {
       'Authorization': bevTokenData.authToken
     }
@@ -428,9 +504,11 @@ const Start = ({ match, intl }) => {
     var raw = {
       "vehicleVin": qrscan_val4
     };
-
-    let request = await axios.post("https://admin.billionmobility.com/BEV/api/ChargeZone/isDriverEligibleForBatterySwap", raw, {
+    let request = await axios.post(posturl, raw, {
       headers: headers
+    }).catch(error => {
+      console.log(error);
+      createNotification("Something went wrong");
     });
     return request;
   }

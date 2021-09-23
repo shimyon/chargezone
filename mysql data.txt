@@ -43,3 +43,37 @@ host = db-mysql-sep-7-backup-do-user-8787659-0.b.db.ondigitalocean.com
 port = 25060
 database = czdb
 sslmode = REQUIRED
+
+
+
+
+SELECT * FROM fleet_operator_master ;
+
+SELECT * FROM fleet_operator_user fou  ;
+
+SELECT * FROM users u where u.username ='nil_botanical';
+
+SELECT  * from queue_master;
+
+SELECT  * from transaction_log;
+
+SELECT  * from hub_master hm WHERE hm.hub_master_id = 1;
+
+SELECT * from user_hub_log uhl where uhl .user_id = 64;
+
+SELECT * from ev_inventory_master eim where hub_id =1;
+
+SELECT * from battery_inventory bi where bi.b_qr_code = '99917';
+
+SELECT  * 
+from transaction_log 
+where hub_id=1 and e_qr_code=99966 
+ORDER by transaction_log_id desc 
+limit 1;
+# 16621 - tranlogid
+
+
+
+99966
+
+15332
