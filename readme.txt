@@ -45,3 +45,5 @@ sudo a2enmod rewrite
 
 restart site
 sudo /etc/init.d/apache2 restart
+
+driver_verify_eligible_url

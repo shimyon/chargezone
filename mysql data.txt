@@ -47,6 +47,8 @@ sslmode = REQUIRED
 
 
 
+update transaction_log set status=1, is_active=1 where e_qr_code = '123456';
+
 SELECT * FROM fleet_operator_master ;
 
 SELECT * FROM fleet_operator_user fou  ;
@@ -55,7 +57,7 @@ SELECT * FROM users u where u.username ='nil_botanical';
 
 SELECT  * from queue_master;
 
-SELECT  * from transaction_log;
+SELECT  * from transaction_log where e_qr_code = '123456';
 
 SELECT  * from hub_master hm WHERE hm.hub_master_id = 1;
 
@@ -65,13 +67,21 @@ SELECT * from ev_inventory_master eim where hub_id =1;
 
 SELECT * from battery_inventory bi where bi.b_qr_code = '99917';
 
+SELECT fom.* 
+FROM ev_inventory_master eim
+join fleet_operator_master fom on eim.fleet_owner_id =fom.fleet_operator_id 
+WHERE eim .e_qr_code =123456;
+
+SELECT eim.registration_no, count(eim.registration_no)
+FROM ev_inventory_master eim
+group by eim.registration_no;
+
 SELECT  * 
 from transaction_log 
 where hub_id=1 and e_qr_code=99966 
 ORDER by transaction_log_id desc 
 limit 1;
 # 16621 - tranlogid
-
 
 
 99966
