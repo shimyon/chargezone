@@ -328,7 +328,7 @@ const Start = ({ match, intl }) => {
 
                       let resdriver = await DriveEligibility();
                       if (resdriver.data.success) {
-                        if (resdriver.data.status === 1) {
+                        if (resdriver.data.successMessage === "Success!") {
                           goToNext();
                           step.isDone = true;
                           stopAsyncLoading(extraIndex);
@@ -498,13 +498,14 @@ const Start = ({ match, intl }) => {
     let posturl = driveVerifyDetail.eligible_url;
 
     const headers = {
-      'Authorization': bevTokenData.authToken
+      'authToken': bevTokenData.authToken
     }
 
-    var raw = {
-      "vehicleVin": qrscan_val4
-    };
-    let request = await axios.post(posturl, raw, {
+    // var raw = {
+    //   "vehicleVin": qrscan_val4
+    // };
+    posturl += `?vehicleVin=${qrscan_val4}`;
+    let request = await axios.get(posturl, {
       headers: headers
     }).catch(error => {
       console.log(error);
