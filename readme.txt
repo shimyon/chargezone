@@ -47,3 +47,6 @@ restart site
 sudo /etc/init.d/apache2 restart
 
 driver_verify_eligible_url
+
+
+php artisan config:clear
