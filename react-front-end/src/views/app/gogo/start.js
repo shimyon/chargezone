@@ -328,7 +328,11 @@ const Start = ({ match, intl }) => {
 
                       let resdriver = await DriveEligibility();
                       if (resdriver.data.success) {
-                        if (resdriver.data.successMessage === "Success!") {
+                        if (resdriver.data.availableSwaps == 0) {
+                          createNotification("No swap available for this EV!");
+                          stopAsyncLoading(extraIndex);
+                        }
+                        else if (resdriver.data.successMessage === "Success!") {
                           goToNext();
                           step.isDone = true;
                           stopAsyncLoading(extraIndex);
