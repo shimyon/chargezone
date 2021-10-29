@@ -309,7 +309,8 @@ const Start = ({ match, intl }) => {
               .then(async (respair) => {
                 debugger
                 if (respair.data.status === 1) {
-                  if (respair.data.data && respair.data.data.driver_verify_require === 1) {
+
+                  if (respair.data.data && respair.data.data.driver_verify_require === 1 && respair.data.data.is_ev_verify_require === 1) {
                     createNotificationInfo("Two factor authentication check for EV");
                     driveVerifyDetail.url = respair.data.data.driver_verify_url;
                     driveVerifyDetail.userid = respair.data.data.driver_verify_user;

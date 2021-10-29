@@ -140,7 +140,7 @@ class OperationController extends BaseController
                     DB::table('transaction_log')->where('transaction_log_id', $trans_exist->transaction_log_id)
                         ->update(['status' => 5, 'updated_at' => Carbon::now()->format('Y-m-d H:i:s')]);
                     $ev_inventory_master = DB::table('ev_inventory_master')->where(['e_qr_code' => $ev_qr_code])
-                        ->select('fleet_operator_master.driver_verify_require', 'fleet_operator_master.driver_verify_url', 'fleet_operator_master.driver_verify_user', 'fleet_operator_master.driver_verify_pass', 'fleet_operator_master.driver_verify_eligible_url')
+                        ->select('ev_inventory_master.is_ev_verify_require', 'fleet_operator_master.driver_verify_require', 'fleet_operator_master.driver_verify_url', 'fleet_operator_master.driver_verify_user', 'fleet_operator_master.driver_verify_pass', 'fleet_operator_master.driver_verify_eligible_url')
                         ->join('fleet_operator_master', 'ev_inventory_master.fleet_owner_id', '=', 'fleet_operator_master.fleet_operator_id')
                         ->first();
                     return $this->sendResponse('EV found successfully!', $ev_inventory_master);

@@ -4,3 +4,8 @@ composer install --ignore-platform-reqs
 or
 
 composer update --ignore-platform-reqs
+
+ALTER TABLE `ev_inventory_master`
+	ADD COLUMN `is_verify_required` TINYINT NULL DEFAULT '1' AFTER `remark_2`;
+
+	1011160
